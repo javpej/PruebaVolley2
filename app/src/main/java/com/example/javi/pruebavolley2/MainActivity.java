@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         RecyclerView myRecyclerview = (RecyclerView) findViewById(R.id.MyRecyclerView);
-
         items = new ArrayList<Item>();
 
         Item item1 = new Item("Lorca", "20 ºC", "Nublado");
